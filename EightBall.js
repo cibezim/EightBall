@@ -1,10 +1,10 @@
 // Eight Ball 
 
 
-let userName = 'David';
+let userName = 'Chukwuma';
 userName ? console.log(`Hello, ${userName}`) : console.log("Hello!");
 
-let userQuestion = 'What is my dream occupation?';
+let userQuestion = 'What is your dream occupation?';
 console.log(userQuestion);
 
 let randomNumber = Math.floor(Math.random() * 8);
@@ -41,7 +41,7 @@ switch (randomNumber) {
         break;
 }
 
-console.log('What should my salary be?');
+console.log('What should your salary be?');
 
 if(randomNumber === 0) {
     console.log(50000);
